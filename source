@@ -1992,3 +1992,10 @@ local Button = MainTab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/homohack.lua"))()
     end,
 })
+
+local Button = MainTab:CreateButton({
+    Name = "blade ball",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EminenceXLua/Blade-your-Balls/main/BladeBallLoader.lua"))()
+    end,
+
