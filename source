@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "scripthub",
-   LoadingTitle = "Sigma Scripts",
-   LoadingSubtitle = "made by zoe",
+   Name = "sigma scripts",
+   LoadingTitle = "loading",
+   LoadingSubtitle = "zoe made this",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
@@ -31,7 +31,7 @@ local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
    Title = "Scripthub Executed",
-   Content = "end_9284 execution test",
+   Content = "endpoint test",
    Duration = 5,
    Image = nil,
    Actions = { -- Notification Buttons
@@ -59,9 +59,9 @@ local Button = MainTab:CreateButton({
 })        
             
 local Button = MainTab:CreateButton({
-   Name = "combat warriors (head hitbox expander)",
+   Name = "horrific housing",
    Callback = function()
-   loadstring(game:HttpGet("https://pastebin.com/8ZQJRN2i"))();
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/BakaPraselol/HH-loader/main/HH%20loader0"))()
    end,
 })
 
@@ -91,5 +91,17 @@ local Button = MainTab:CreateButton({
     Callback = function()
     getgenv()["load_rewrite"] = true --// ONLY APPLIES TO PF
     loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/loader.lua"))()
+    end,
+})
+
+local Button = MainTab:CreateButton({
+    Name = "pressure",
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/Scripts2024/main/pressure"))()
+    end,
+})
+
+local Button = MainTab:CreateButton({
+    Name = "fps booster",
+    loadstring(game:HttpGet("https://pastebin.com/raw/8YZ2cc6V"))()
     end,
 })
